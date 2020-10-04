@@ -1,0 +1,56 @@
+git init
+Crear la carpeta de git
+
+git add
+añadir archivo a la carpeta de git
+
+git add .
+añadir todos los archivos que no ahn sido añadidos
+
+git commit -m "mensaje"
+mensaje descriptivo de los cambios que se dieron
+
+git reset HEAD nombre_archivo
+devolver el archivo un estado antes de haber hecho el commit. el archivo está en staging
+esto tambien funciona si hemos eliminado algun archivo y le hemos dado commit
+
+git checkout -- nombrearchivo
+usar cuando hicimos varia modificaciones y no nos gustaron los cambios. los archivos no estén en staging
+_____________________________________________
+git log
+ver todos los cambios que se han hecho en la carpeta y quien los ha configurado
+
+git checkout los Primeros6CaracteresDelComm
+aqui volvemos en el tiempo y recuperamos ese archivo
+____________________________________________
+
+git branch
+Mirar las ramas del proyecto
+
+git checkout nombrerama
+cambiar a la rama nombrerama
+
+git branch -D nombrerama
+borrar la rama llamada nombrerama
+
+git checkout nuevaRama
+crear y dirigirse a la rama nuevaRama
+
+despues de trabajar en un archivo debemos correr los comandos
+git add
+git commit -m "mensaje"
+
+git checkout master y luego git merge nuevaRama
+Juntar la rama master y la rama nuevaRama y guardarla en master
+
+si la mezcla salió exitosa hay que borrar a nuevaRama
+
+____________________________________
+git y git hub
+git remote add origin https://github.com/Valen0712/nombre-repositorio.git
+git push -u origin main
+
+
+
+
+
